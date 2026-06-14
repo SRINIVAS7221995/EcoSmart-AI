@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoSmart AI</title>
+</head>
+<body>
+    <h1>EcoSmart AI</h1>
+    <h2>Carbon Footprint Calculator</h2>
+
+    <form method="POST">
+        <label>Travel Distance (KM per day)</label><br>
+        <input type="number" name="distance" required><br><br>
+
+        <label>Electricity Usage (Units per month)</label><br>
+        <input type="number" name="electricity" required><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    <h3>{{ result }}</h3>
+</body>
+</html>
