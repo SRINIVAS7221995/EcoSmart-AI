@@ -1,3 +1,4 @@
+# Input validation added to prevent invalid and negative values
 from flask import Flask, render_template, request
 
 app = Flask(__name__)

@@ -1,26 +1,30 @@
 # EcoSmart AI
 
-## Problem Statement
-People are often unaware of their carbon footprint and environmental impact.
-
-## Solution
-EcoSmart AI helps users estimate their carbon footprint using travel and electricity consumption data.
+AI-powered Carbon Footprint Awareness Platform.
 
 ## Features
-- Carbon footprint calculator
-- User-friendly interface
-- Environmental awareness
 
-## Technology
+- Carbon footprint calculator
+- Vehicle type selection
+- Travel distance tracking
+- Electricity usage tracking
+- Carbon impact classification
+- Personalized recommendations
+- Input validation
+
+## Tech Stack
+
 - Python
 - Flask
 - HTML
+- CSS
 
-## How to Run
+## Testing
+
+Basic Flask test cases are included in test_app.py
+
+## Run Locally
 
 pip install flask
 
 python app.py
-
-Open:
-http://127.0.0.1:5000
